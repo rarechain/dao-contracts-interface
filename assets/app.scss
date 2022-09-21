@@ -1,0 +1,20 @@
+.v-application--is-rtl {
+  .v-btn {
+    letter-spacing: initial !important;
+  }
+}
+h3 {
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: normal;
+}
+table thead.v-data-table-header th span {
+  font-size: 13px;
+}
+.mediaImg {
+  height: 100px;
+  width: 100px;
+  margin: 15px 5px 5px 5px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+}

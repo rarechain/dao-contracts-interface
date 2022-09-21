@@ -1,0 +1,31 @@
+{
+  "name": "qao-contract-interface",
+  "version": "1.0.0",
+  "description": "Qao Contract Interface",
+  "author": "Purple FOX",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxt/babel-preset-app": "^2.15.4",
+    "@nuxtjs/auth": "^4.9.1",
+    "@nuxtjs/axios": "^5.12.5",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/pwa": "^3.3.4",
+    "ethers": "^5.1.4",
+    "moment": "^2.29.1",
+    "nuxt": "^2.15.*",
+    "nuxt-dropzone": "^1.0.4",
+    "vue-gates": "^2.1.0",
+    "vue-perfect-scrollbar": "^0.2.1",
+    "vuex-persist": "^3.1.3"
+  },
+  "devDependencies": {
+    "@nuxtjs/moment": "^1.6.1",
+    "@nuxtjs/vuetify": "^1.11.2"
+  }
+}

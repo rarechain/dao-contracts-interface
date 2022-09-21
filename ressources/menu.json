@@ -1,0 +1,37 @@
+[
+  {
+    "title":"Accueil",
+    "icon":"mdi-view-dashboard",
+    "name":"Accueil",
+    "href":"/"
+  },
+  {
+    "title":"Tâches",
+    "icon":"mdi-card-text-outline",
+    "name":"Tâches",
+    "href":"#",
+    "items": [
+      {
+        "group":"map",
+        "name":"Carte",
+        "title":"Carte",
+        "href":"/task/map"
+      }
+    ]
+  },
+  {
+    "title":"Inventaire",
+    "icon":"mdi-home-variant-outline",
+    "name":"Inventaire",
+    "roles": "ROLE_SUPER_ADMIN|ROLE_ADMIN|ROLE_MANAGER",
+    "href":"#",
+    "items": [
+      {
+        "group":"warehouse",
+        "name":"Entrepôts",
+        "title":"Entrepôts",
+        "href":"/inventory/warehouse"
+      }
+    ]
+  }
+]
